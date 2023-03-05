@@ -64,7 +64,7 @@ const Card = ({
             sha,
           }) => (
            
-              <Commit message={message} key={sha} sha={sha} date={date} />
+              <Commit message={message} key={sha} sha={sha} date={date} name={name} />
           )
         )}
     </div>
